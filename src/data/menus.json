@@ -1,0 +1,112 @@
+{
+  "profileMenu": {
+    "title": "profile menu",
+    "sections": [
+      {
+        "id": "1",
+        "menuitems": [
+          {
+            "value": "Erika Stiebel",
+            "email": "erikastiebel@gmail.com",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "menuitems": [
+          {
+            "value": "Account",
+            "type": "link",
+            "link": "/",
+            "state": "active"
+          },
+          { "value": "Log out", "type": "link", "link": "/", "state": "active" }
+        ]
+      }
+    ]
+  },
+  "presentationMenu": {
+    "title": "presentation menu",
+    "sections": [
+      {
+        "id": "1",
+        "menuitems": [
+          {
+            "value": "Present",
+            "icon": "polygon",
+            "type": "button",
+            "state": "active",
+            "onclick": "aMenuFunction"
+          },
+          {
+            "value": "Open",
+            "icon": "polygon",
+            "type": "button",
+            "state": "active",
+            "onclick": "anotherMenuFunction"
+          },
+          {
+            "value": "Export results",
+            "icon": "polygon",
+            "type": "button",
+            "state": "active",
+            "onclick": "aMenuFunction"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "menuitems": [
+          {
+            "value": "Share with organization",
+            "icon": "polygon",
+            "type": "button",
+            "state": "active",
+            "onclick": "aMenuFunction"
+          },
+          {
+            "value": "Share link",
+            "icon": "polygon",
+            "type": "button",
+            "state": "active",
+            "onclick": "anotherMenuFunction"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "menuitems": [
+          {
+            "value": "Rename",
+            "icon": "polygon",
+            "type": "button",
+            "state": "active",
+            "onclick": "aMenuFunction"
+          },
+          {
+            "value": "Move to folder",
+            "icon": "polygon",
+            "type": "button",
+            "state": "active",
+            "onclick": "anotherMenuFunction"
+          },
+          {
+            "value": "Duplicate",
+            "icon": "polygon",
+            "type": "button",
+            "state": "active",
+            "onclick": "aMenuFunction"
+          },
+          {
+            "value": "Delete",
+            "icon": "polygon",
+            "type": "button",
+            "state": "active",
+            "onclick": "anotherMenuFunction"
+          }
+        ]
+      }
+    ]
+  }
+}
