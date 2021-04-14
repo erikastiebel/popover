@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This application is to laborate on an action menu that is flexible and can support multiple menu formats and menu item variants.
+This application is to experiment on an action menu that is flexible and can support multiple menu formats and menu item variants.
 
 ## Requirements
 
